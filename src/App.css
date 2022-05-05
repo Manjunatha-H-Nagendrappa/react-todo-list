@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: aliceblue;
+  min-width: 450px;
+  min-height: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 3px 6px 40px black;
+  margin-bottom: 80px;
+}
+
+.complete {
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  opacity: 0.3;
+}
+
+input,
+button {
+  margin: 3px;
+}
